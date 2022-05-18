@@ -1,0 +1,117 @@
+{
+  "title": "编写gitbook电子书教程",
+  "description": "gitbook电子书教程1",
+  "author": "sphard",
+  "language": "zh-hans",
+  "root": ".",
+  "plugins": [
+      "-lunr", 
+      "-search",
+      "-sharing",
+      "donate",
+      "code",
+      "pageview-count",
+      "splitter",
+      "sharing-plus",
+      "search-pro",
+      "advanced-emoji",
+      "accordion",
+      "alerts",
+      "flexible-alerts",
+      "theme-bookstyle",
+      "chapter-fold",
+      "page-treeview",
+      "back-to-top-button",
+      "auto-scroll-table",
+      "url-embed"
+  ],
+
+  "variables": {
+      "themeFexa":{
+          "nav":[
+              {
+                  "url":"http://...",
+                  "target":"_blank",
+                  "name": "简易教程"
+              }
+          ]
+      }
+  },
+
+  "pluginsConfig": { 
+      "donate": {
+          "wechat": "https://sphard.com/images/wechatpay.jpg",
+          "alipay": "https://sphard.com/images/alipay.jpg",
+          "title": "",
+          "button": "打赏",
+          "alipayText": "支付宝打赏",
+          "wechatText": "微信打赏"
+      },
+      "github-buttons": {
+          "repo": "darrenliuwei/gitbook",
+          "types": [
+              "star"
+          ],
+          "size": "small"
+      },
+      "edit-link": {
+          "base": "https://github.com/darrenliuwei/gitbook/edit/master",
+          "label": "Edit This Page"
+      },
+      "sharing": {
+        "douban": true,
+        "facebook": true,
+        "google": true,
+        "pocket": true,
+        "qq": true,
+        "qzone": true,
+        "twitter": true,
+        "weibo": true,
+        "all": [
+            "qq", "qzone","viber","whatsapp",
+              "douban", "facebook", "google", "instapaper", "linkedin",
+              "messenger","twitter", "weibo"
+          ]
+      },
+      "hide-element": {
+        "elements": [".gitbook-link", ".copyright"]
+      },
+      "insert-logo": {
+        "url": "images/tupian.png",
+        "style": "background: none; max-height: 30px; min-height: 30px"
+      },
+      "favicon": "icon/favicon.ico",
+      "github": {"url": "https://github.com"},
+      "anchor-navigation-ex": {
+        "showLevel": false,
+        "showGoTop": false
+      },
+      "theme-fexa":{
+        "search-placeholder":"输入关键字搜索",
+        "logo":"./logo.png",
+        "favicon": "./favicon.ico"
+      },
+      "pluginsConfig": {
+        "theme-bookstyle": {
+            "search-placeholder": "输入关键字搜索",
+            "logo": "./logo.png",
+            "favicon": "./favicon.ico"
+        }
+      },
+      "valine": {
+        "appId": "your appId",
+        "appKey": "your appKey"
+      },
+      "page-toc-button": {
+        "maxTocDepth": 6,
+        "minTocSize": 6
+      },
+      "change_girls" : {
+        "time" : 10,
+        "urls" : [
+            "http://www.news.cn/photo/2022-04/26/1128597740_16509593553311n.jpg", 
+            "http://www.news.cn/photo/2022-04/26/1128597740_16509593554301n.jpg"
+        ]
+    } 
+  }
+}
